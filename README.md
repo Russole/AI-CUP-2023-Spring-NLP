@@ -7,3 +7,4 @@ conda activate nlp-aicup
 ## 資料  
 ## 訓練  
 ## 預測  
+### 權重下載網址:https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing
