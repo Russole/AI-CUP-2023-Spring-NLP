@@ -12,7 +12,7 @@ data/Stage2ModelTrainData : Stage 2 的訓練集
 data/Stage3ModelTrainData : Stage 3 的訓練集  
 還有一項資料wiki pages因檔案太大，所以沒傳上來，解壓後麻煩放在這個資料夾
 ## BM25
-Stage1_Un_BM25.ipnb 處理訓練資料
+Stage1_Un_BM25.ipnb 處理訓練資料  
 Stage1_BM25Final.ipynb 處理Test及Private的資料
 ## 訓練 
 Stage 2 : SentenceRetrievalTrain.ipynb  
