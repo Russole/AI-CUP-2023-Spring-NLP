@@ -1,7 +1,7 @@
 # AI-CUP-2023-Spring-NLP
 ## 運行環境  
 ### 使用 Anaconda 建立環境 :   
-conda env create -f enviroment.yml  
+conda env create -f environment.yml  
 conda activate AI_CUP  
 
 ## 資料  
