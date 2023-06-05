@@ -1,3 +1,4 @@
-AI_CUP_Env/
-data/wiki-pages/
+AI_CUP/
+data/wiki-pages/*
 __pycache__/
+logs/
