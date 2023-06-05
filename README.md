@@ -2,7 +2,7 @@
 ## 運行環境  
 ### 使用 Anaconda 建立環境 :   
 conda env create -f enviroment.yml  
-conda activate nlp-aicup  
+conda activate AI_CUP  
 
 ## 資料  
 data/raw : 裡面是未經過處理的原始資料集  
