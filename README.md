@@ -12,13 +12,13 @@ data/Stage2ModelTrainData : Stage 2 的訓練集
 data/Stage3ModelTrainData : Stage 3 的訓練集  
 還有一項資料wiki pages因檔案太大，所以沒傳上來，解壓後麻煩放在data資料夾(路徑:data/wiki-pages)
 ## Stage 1
-Stage1_Un_BM25.ipynb 處理訓練資料，以利後續Stage 2 的訓練  
-Stage1_BM25Final.ipynb 處理Test及Private的資料
+Stage1_Un_BM25.ipynb ，處理訓練資料，以利後續Stage 2 的訓練  
+Stage1_BM25Final.ipynb 處理Test及Private的資料，後續Stage 2 Infer用的資料
 ## 訓練 
-Stage 2 : SentenceRetrievalTrain.ipynb  
+Stage 2 : SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage 3訓練
 Stage 3 : ClaimVerTrain.ipynb
 ## 預測  
 ### [權重下載網址](https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing)  
 請先下載權重並且放在weights資料夾中    
-Stage 2 : SentenceRetrievalInfer.ipynb  
+Stage 2 : SentenceRetrievalInfer.ipynb  ，產生的Infer資料會在Stage 3運算  
 Stage 3 : ClaimVerInfer.ipynb  
