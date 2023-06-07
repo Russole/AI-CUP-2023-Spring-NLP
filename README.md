@@ -7,7 +7,8 @@ conda activate AI_CUP
 ## 資料  
 data/raw : 裡面是未經過處理的原始資料集  
 data/Stage 1 : 經過Stage 1 Stage1_BM25Final.ipynb 及 Stage1_Un_BM25.ipynb處理過的資料集  
-data/Stage 2 : 經過 SentenceRetrievalTrain.ipynb 運算後產出的數據集  
+data/Stage 2/PublicTrain/WithoutBM25 : 經過 SentenceRetrievalTrain.ipynb 運算後產出的訓練數據集  
+data/Stage 2/Private : Private Data 經過 SentenceRetrievalInfer.ipynb 運算後產出的Infer數據集  
 data/Stage2ModelTrainData : Stage 2 的訓練集  
 data/Stage3ModelTrainData : Stage 3 的訓練集  
 還有一項資料wiki pages因檔案太大，所以沒傳上來，解壓後麻煩放在data資料夾(路徑:data/wiki-pages)
