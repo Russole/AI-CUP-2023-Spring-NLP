@@ -13,7 +13,7 @@ data/Stage2ModelTrainData : Stage 2 的訓練集
 data/Stage3ModelTrainData : Stage 3 的訓練集  
 還有一項資料wiki pages因檔案太大，所以沒傳上來，解壓後麻煩放在data資料夾(路徑:data/wiki-pages)
 ## Stage 1
-因為會遇到wikipedia 在search時候的一些問題，所以Stage 1是在Colab雲端上運算
+因為會遇到wikipedia 在search時候的一些問題，所以Stage 1是在Colab雲端上運算  
 Stage1_BM25Final.ipynb : 透過BM25演算法搜尋文章  
 Stage1_Un_BM25.ipynb ，處理訓練資料，以利後續Stage 2 的訓練  
 Stage1_BM25Final.ipynb 處理Test及Private的資料，後續Stage 2 Infer用的資料
