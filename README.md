@@ -19,6 +19,6 @@ Stage 2 : SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage
 Stage 3 : ClaimVerTrain.ipynb
 ## 預測  
 ### [權重下載網址](https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing)  
-請先下載權重並且放在weights資料夾中    
+請先下載權重並且放在weights資料夾中，連結有提供Stage2 及 3的模型權重  
 Stage 2 : SentenceRetrievalInfer.ipynb  ，產生的Infer資料會在Stage 3運算  
 Stage 3 : ClaimVerInfer.ipynb  
