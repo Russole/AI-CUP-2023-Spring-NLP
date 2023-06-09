@@ -11,7 +11,7 @@ data/Stage 2/PublicTrain/WithoutBM25 : Train Data 經過 SentenceRetrievalTrain.
 data/Stage 2/Private : Private Data 經過 SentenceRetrievalInfer.ipynb 運算後產出的Infer數據集  
 data/Stage2ModelTrainData : Stage 2 的訓練集  
 data/Stage3ModelTrainData : Stage 3 的訓練集  
-還有一項資料wiki pages因檔案太大，所以沒傳上來，執行程式前，請先解壓後再放在data資料夾(路徑:data/wiki-pages)  
+**還有一項資料wiki pages因檔案太大，所以沒傳上來，執行程式前，請先解壓後再放在data資料夾(路徑:data/wiki-pages)**  
 ## Stage 1
 因為會遇到wikipedia 在search時候的一些問題，所以Stage 1是在Colab雲端上運算  
 Stage1_BM25Final.ipynb : 透過BM25演算法搜尋文章  
