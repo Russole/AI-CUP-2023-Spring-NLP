@@ -27,4 +27,4 @@ Stage 3 : ClaimVerTrain.ipynb
 請先下載權重並且放在weights資料夾中，連結有提供Stage2 及 3的模型權重  
 Stage 2 : SentenceRetrievalInfer.ipynb  ，產生的Infer資料會在Stage 3運算  
 Stage 3 : ClaimVerInfer.ipynb  ， 產生最後的預測檔案  
-備註: 因wikipedia.search()會傳的資料會有浮動，再還沒執行Stage 1 及Stage 2的情況下，可以直接執行ClaimVerInfer.ipynb，產生最後的預測檔案  
+備註: 因wikipedia.search()會傳的資料會有浮動，再還沒執行Stage 1 及Stage 2的情況下，下載好模型權重後，可以直接執行ClaimVerInfer.ipynb，產生最後的預測檔案  
