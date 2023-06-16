@@ -1,4 +1,5 @@
-# AICUP-2023-Spring-NLP 真相只有一個: 事實文字檢索與查核競賽  
+# AICUP-2023-Spring-NLP 
+# 真相只有一個: 事實文字檢索與查核競賽  
 ## 運行環境  
 ### 使用 Anaconda 建立環境 :   
 conda env create -f environment.yml  
