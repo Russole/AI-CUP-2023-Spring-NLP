@@ -22,7 +22,7 @@ Stage1_Un_BM25.ipynb ，處理訓練資料，以利後續Stage 2 的訓練
 Stage1_BM25Final.ipynb 處理Test及Private的資料，後續Stage 2 Infer用的資料
 ## 訓練 
 進行Stage 2 訓練前，請先將 data/Stage1/UnBM25_train_doc10.jsonl 複製到 data/Stage2ModelTrainData 資料夾中  
-- Stage 2 : SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage 3訓練
+- Stage 2 : SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage 3訓練  
 進行Stage3 訓練前，請先將 data/Stage 2/PublicTrain/WithoutBM25 資料夾裡的資料，複製到 data/Stage3ModelTrainData 資料夾中  
 - Stage 3 : ClaimVerTrain.ipynb
 ## 預測  
