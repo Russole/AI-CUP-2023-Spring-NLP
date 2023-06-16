@@ -23,10 +23,10 @@ conda activate AI_CUP
 ## 訓練 
 ### Stage 2 訓練
 進行Stage 2 訓練前，請先將 data/Stage1/UnBM25_train_doc10.jsonl 複製到 data/Stage2ModelTrainData 資料夾中  
-- Stage 2 : SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage 3訓練
+- Stage 2 Training: SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage 3訓練
 ### Stage 3 訓練
 進行Stage3 訓練前，請先將 data/Stage 2/PublicTrain/WithoutBM25 資料夾裡的資料，複製到 data/Stage3ModelTrainData 資料夾中  
-- Stage 3 : ClaimVerTrain.ipynb
+- Stage 3 Training: ClaimVerTrain.ipynb
 ## 預測  
 ### [權重下載網址](https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing)  
 請先下載權重並且放在weights資料夾中，連結有提供Stage2 及 3的模型權重  
