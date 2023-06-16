@@ -17,9 +17,9 @@ conda activate AI_CUP
 ### [wiki pages下載網址](https://drive.google.com/drive/folders/195FIG2ZCyI-VqZJtZLG3aHcJxQ13KjdI?usp=sharing)  
 ## Stage 1
 因為會遇到wikipedia 在search時候的一些問題，所以Stage 1是在Colab雲端上運算  
-Stage1_BM25Final.ipynb : 透過BM25演算法搜尋文章  
-Stage1_Un_BM25.ipynb ，處理訓練資料，以利後續Stage 2 的訓練  
-Stage1_BM25Final.ipynb 處理Test及Private的資料，後續Stage 2 Infer用的資料
+- Stage1_BM25Final.ipynb : 透過BM25演算法搜尋文章  
+- Stage1_Un_BM25.ipynb ，處理訓練資料，以利後續Stage 2 的訓練  
+- Stage1_BM25Final.ipynb 處理Test及Private的資料，後續Stage 2 Infer用的資料
 ## 訓練 
 ### Stage 2 訓練
 進行Stage 2 訓練前，請先將 data/Stage1/UnBM25_train_doc10.jsonl 複製到 data/Stage2ModelTrainData 資料夾中  
@@ -30,6 +30,6 @@ Stage1_BM25Final.ipynb 處理Test及Private的資料，後續Stage 2 Infer用的
 ## 預測  
 ### [權重下載網址](https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing)  
 請先下載權重並且放在weights資料夾中，連結有提供Stage2 及 3的模型權重  
-Stage 2 : SentenceRetrievalInfer.ipynb  ，產生的Infer資料會在Stage 3運算  
-Stage 3 : ClaimVerInfer.ipynb  ， 產生最後的預測檔案  
-備註: 因為在實驗的過程中，觀察到wikipedia.search()會傳的資料會有浮動，再還沒執行Stage 1 及Stage 2的情況下，下載好模型權重後，可以直接執行ClaimVerInfer.ipynb，產生最後的預測檔案  
+- Stage 2 : SentenceRetrievalInfer.ipynb  ，產生的Infer資料會在Stage 3運算  
+- Stage 3 : ClaimVerInfer.ipynb  ， 產生最後的預測檔案  
+### 備註: 因為在實驗的過程中，觀察到wikipedia.search()會傳的資料會有浮動，再還沒執行Stage 1 及Stage 2的情況下，下載好模型權重後，可以直接執行ClaimVerInfer.ipynb，產生最後的預測檔案  
