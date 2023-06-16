@@ -7,9 +7,9 @@ conda activate AI_CUP
 
 ## 資料  
 data/raw : 裡面是未經過處理的原始資料集  
-data/Stage 1 : 經過Stage 1 Stage1_BM25Final.ipynb 及 Stage1_Un_BM25.ipynb處理過的資料集  
-data/Stage 2/PublicTrain/WithoutBM25 : Train Data 經過 SentenceRetrievalTrain.ipynb 運算後產出的訓練數據集  
-data/Stage 2/Private : Private Data 經過 SentenceRetrievalInfer.ipynb 運算後產出的Infer數據集  
+data/Stage1 : 經過Stage 1 Stage1_BM25Final.ipynb 及 Stage1_Un_BM25.ipynb處理過的資料集  
+data/Stage2/PublicTrain/WithoutBM25 : Train Data 經過 SentenceRetrievalTrain.ipynb 運算後產出的訓練數據集  
+data/Stage2/Private : Private Data 經過 SentenceRetrievalInfer.ipynb 運算後產出的Infer數據集  
 data/Stage2ModelTrainData : Stage 2 的訓練集，與data/Stage 1/UnBM25_train_doc10.jsonl 資料一樣  
 data/Stage3ModelTrainData : Stage 3 的訓練集，與data/Stage 2/PublicTrain/WithoutBM25 資料夾裡的資料一樣  
 **還有一項資料wiki pages因檔案太大，所以沒傳上來，執行程式前，請先解壓後再放在data資料夾(路徑:data/wiki-pages)**  
@@ -21,10 +21,10 @@ Stage1_BM25Final.ipynb : 透過BM25演算法搜尋文章
 Stage1_Un_BM25.ipynb ，處理訓練資料，以利後續Stage 2 的訓練  
 Stage1_BM25Final.ipynb 處理Test及Private的資料，後續Stage 2 Infer用的資料
 ## 訓練 
-進行Stage 2 訓練前，請先將 data/Stage 1/UnBM25_train_doc10.jsonl 複製到 data/Stage2ModelTrainData 資料夾中  
-Stage 2 : SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage 3訓練  
-進行Stage 3 訓練前，請先將 data/Stage 2/PublicTrain/WithoutBM25 資料夾裡的資料，複製到 data/Stage3ModelTrainData 資料夾中  
-Stage 3 : ClaimVerTrain.ipynb
+進行Stage 2 訓練前，請先將 data/Stage1/UnBM25_train_doc10.jsonl 複製到 data/Stage2ModelTrainData 資料夾中  
+-Stage 2 : SentenceRetrievalTrain.ipynb ，產生的訓練資料會繼續在Stage 3訓練  
+進行Stage3 訓練前，請先將 data/Stage 2/PublicTrain/WithoutBM25 資料夾裡的資料，複製到 data/Stage3ModelTrainData 資料夾中  
+-Stage 3 : ClaimVerTrain.ipynb
 ## 預測  
 ### [權重下載網址](https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing)  
 請先下載權重並且放在weights資料夾中，連結有提供Stage2 及 3的模型權重  
