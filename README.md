@@ -6,12 +6,12 @@ conda env create -f environment.yml
 conda activate AI_CUP  
 
 ## 資料  
-data/raw : 裡面是未經過處理的原始資料集  
-data/Stage1 : 經過Stage 1 Stage1_BM25Final.ipynb 及 Stage1_Un_BM25.ipynb處理過的資料集  
-data/Stage2/PublicTrain/WithoutBM25 : Train Data 經過 SentenceRetrievalTrain.ipynb 運算後產出的訓練數據集  
-data/Stage2/Private : Private Data 經過 SentenceRetrievalInfer.ipynb 運算後產出的Infer數據集  
-data/Stage2ModelTrainData : Stage 2 的訓練集，與data/Stage 1/UnBM25_train_doc10.jsonl 資料一樣  
-data/Stage3ModelTrainData : Stage 3 的訓練集，與data/Stage 2/PublicTrain/WithoutBM25 資料夾裡的資料一樣  
+- data/raw : 裡面是未經過處理的原始資料集  
+- data/Stage1 : 經過Stage 1 Stage1_BM25Final.ipynb 及 Stage1_Un_BM25.ipynb處理過的資料集  
+- data/Stage2/PublicTrain/WithoutBM25 : Train Data 經過 SentenceRetrievalTrain.ipynb 運算後產出的訓練數據集  
+- data/Stage2/Private : Private Data 經過 SentenceRetrievalInfer.ipynb 運算後產出的Infer數據集  
+- data/Stage2ModelTrainData : Stage 2 的訓練集，與data/Stage 1/UnBM25_train_doc10.jsonl 資料一樣  
+- data/Stage3ModelTrainData : Stage 3 的訓練集，與data/Stage 2/PublicTrain/WithoutBM25 資料夾裡的資料一樣  
 **還有一項資料wiki pages因檔案太大，所以沒傳上來，執行程式前，請先解壓後再放在data資料夾(路徑:data/wiki-pages)**  
 **wiki pages為競賽網頁上的資料，這裡有提供下載連結**  
 ### [wiki pages下載網址](https://drive.google.com/drive/folders/195FIG2ZCyI-VqZJtZLG3aHcJxQ13KjdI?usp=sharing)  
