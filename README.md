@@ -1,4 +1,4 @@
-# AICUP-2023-Spring-NLP 真相只有一個: 事實文字檢索與查核競賽   
+# AICUP-2023-Spring-NLP-真相只有一個: 事實文字檢索與查核競賽   
 ## Team_3181
 - Public Leaderboard : 0.527806  
 - Private Leaderboard : 0.629715  
