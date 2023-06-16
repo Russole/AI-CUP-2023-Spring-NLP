@@ -1,7 +1,5 @@
 # AICUP-2023-Spring-NLP-真相只有一個: 事實文字檢索與查核競賽   
-## Team_3181
-- Public Leaderboard : 0.527806  
-- Private Leaderboard : 0.629715  
+### 隊伍:Team_3181 
 ## 運行環境  
 ### 使用 Anaconda 建立環境 :   
 conda env create -f environment.yml  
